@@ -1,0 +1,62 @@
+{
+    "name": "curso-platzi-react-avanzado",
+    "version": "1.0.0",
+    "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
+    "main": "index.js",
+    "scripts": {
+        "now-build": "npm run build",
+        "build": "webpack",
+        "lint": "standard",
+        "dev": "webpack-dev-server --history-api-fallback",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+    },
+    "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/plugin-transform-runtime": "^7.15.0",
+        "@babel/preset-env": "^7.15.6",
+        "@babel/preset-react": "^7.14.5",
+        "babel-loader": "^8.2.2",
+        "html-webpack-plugin": "^5.3.2",
+        "standard": "^16.0.3",
+        "webpack": "^5.53.0",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.2.1",
+        "wepack-cli": "^0.0.1-security"
+    },
+    "dependencies": {
+        "@apollo/react-hooks": "^4.0.0",
+        "@babel/runtime": "^7.15.4",
+        "apollo-boost": "^0.4.9",
+        "axios": "^0.21.4",
+        "components": "^0.1.0",
+        "graphql": "^15.6.0",
+        "intersection-observer": "^0.12.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.2.0",
+        "react-router-dom": "^5.3.0",
+        "styled": "^1.0.0",
+        "styled-components": "^5.3.1"
+    },
+    "standard": {
+        "ignore": [
+            "/api/**"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/standard/eslintrc.json"
+        ]
+    }
+}
